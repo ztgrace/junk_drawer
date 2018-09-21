@@ -92,7 +92,7 @@ for node in nodes:
     if '.exe' in nodes[node].name:
         rels.append(Relationship(source=nodes.get('exe'), target=nodes[node]))
 
-graph = Digraph(name="test")
+graph = Digraph(name="code-exec")
 
 for node in nodes:
     graph.node(nodes[node].name, shape=nodes[node].shape())
