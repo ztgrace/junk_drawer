@@ -1,0 +1,78 @@
+- source: C#
+  target: Win32API
+- label: INF
+  source: cmstp.exe
+  target: SCT
+  url: https://bohops.com/2018/02/26/leveraging-inf-sct-fetch-execute-techniques-for-bypass-evasion-persistence/
+- source: DLL
+  target: Win32API
+- source: HTML Application
+  target: VB Script
+- source: HTML Application
+  target: JScript
+- label: DotNetToJScript
+  source: JScript
+  target: C#
+  url: https://github.com/tyranid/DotNetToJScript
+- source: LNK
+  target: EXE
+- source: mshta.exe
+  target: HTML Application
+- source: msxsl.exe
+  target: XML
+- label: Invoke-Item
+  source: powershell.exe
+  target: EXE
+- source: powershell.exe
+  target: Win32API
+- source: powershell.exe
+  target: Reflection.Assembly
+- source: Reflection.Assembly
+  target: JScript
+- source: Reflection.Assembly
+  target: VB Script
+- label: scrobj.dll
+  source: PubPrn.vbs
+  target: SCT
+- source: Reflective DLL Injection
+  target: DLL
+- label: scrobj.dll
+  source: regsrv32.exe
+  target: SCT
+- source: SCT
+  target: JScript
+- source: Shellcode
+  target: Win32API
+- source: VBA
+  target: WMI
+- label: WScript.Shell
+  source: VBA
+  target: EXE
+- source: VBA
+  target: Win32API
+- source: VB Script
+  target: Win32API
+- source: VB Script
+  target: WMI
+- source: Win32API
+  target: Shellcode
+- source: Win32API
+  target: Reflective DLL Injection
+- source: WMI
+  target: Win32API
+- source: wmic.exe
+  target: WMI
+- label: subtee
+  source: wmic.exe
+  target: XSL
+  url: https://subt0x11.blogspot.com/2018/04/wmicexe-whitelisting-bypass-hacking.html
+- source: winword.exe
+  target: VBA
+- source: XML
+  target: JScript
+- source: XSL
+  target: VB Script
+- source: XSL
+  target: JScript
+- source: settingcontent-ms
+  target: EXE
